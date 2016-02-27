@@ -1,0 +1,9 @@
+
+
+stu(1, human, library).
+stu(2, human, library).
+stu(3, cat, ugl).
+stu(4, cat, ncsa).
+
+is_human(I) :- stu(I, S, _), S <> human.
+
